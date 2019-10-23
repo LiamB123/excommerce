@@ -27,7 +27,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), '127.0.0.1',
-                "32e8d592a3b541e9944f97db00401500.vfs.cloud9.us-east-1.amazonaws.com"]
+                "32e8d592a3b541e9944f97db00401500.vfs.cloud9.us-east-1.amazonaws.com",
+                "https://liams-ecommerce.herokuapp.com/"]
 
 
 # Application definition
